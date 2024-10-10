@@ -30,9 +30,9 @@ The project follows a modular structure to ensure clean separation of test logic
 ## Installation
 ### 1. Clone the Repository
 - To get started, clone the project repository from GitHub:
-- git clone https://github.com/yourusername/weconnect-login-automation.git
+- git clone "https://github.com/lijinjoy1/CloudStackWeConnectProject.git"
 - cd CloudStackWeConnectProject.
-- git checkout master branch - git checkout master
+- git checkout master branch *** - git checkout master ***
 
 ## Instructions
 
