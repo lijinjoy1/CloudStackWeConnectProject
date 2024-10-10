@@ -29,9 +29,10 @@ The project follows a modular structure to ensure clean separation of test logic
 
 ## Installation
 ### 1. Clone the Repository
-To get started, clone the project repository from GitHub:
-git clone https://github.com/yourusername/weconnect-login-automation.git
-cd CloudStackWeConnectProject.
+- To get started, clone the project repository from GitHub:
+- git clone https://github.com/yourusername/weconnect-login-automation.git
+- cd CloudStackWeConnectProject.
+- git checkout master branch - git checkout master
 
 ## Instructions
 
@@ -45,7 +46,7 @@ cd CloudStackWeConnectProject.
   
   ### 3. Handling reCAPTCHA
   - The login page contains a **reCAPTCHA** checkbox labeled **"I am not a robot"**.
-  - While the **reCAPTCHA checkbox** is automated and can be clicked programmatically, if image verification is required (where the page asks to click specific images), this step must be done manually because **Google's reCAPTCHA is designed to block automation bots**.
+  - While the **reCAPTCHA checkbox** is automated and can be clicked automatically , if **"Image verification "**  is required (where the page asks to click specific images), this step must be done manually because **Google's reCAPTCHA is designed to block automation bots**.
   - To allow time for manual interaction:
     - I have implemented **explicit waits** and a **Java thread sleep** to pause the test execution, giving time to complete the reCAPTCHA image selection manually.
     - Once the reCAPTCHA verification is completed, the automation script will resume and complete the login process automatically.
