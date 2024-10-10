@@ -56,7 +56,7 @@ The project follows a modular structure to ensure clean separation of test logic
   - After solving the reCAPTCHA manually, the script will proceed with testing login functionality automatically, including verifying success and failure scenarios.
   
   ### 5. Viewing the Test Reports
-  - After running the tests, open the **Extent Report** located in the `reports` folder to view the detailed test results, including screenshots and logs.
+  - After running the tests, open the **Extent Report** located in the `reports` folder to view the test results.
 
 
 
